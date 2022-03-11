@@ -13,7 +13,7 @@ const Nav = ({ input, handleInput, rating, hanleRating, handleModal }) => {
             height="30"
             className="d-inline-block align-top"
           />
-          React Bootstrap
+          Movie App
         </Navbar.Brand>
         <input placeholder="search" value={input} onChange={handleInput} />
         <ReactStars
